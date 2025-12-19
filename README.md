@@ -225,5 +225,4 @@ Each item shows:
 </h3>
 
 
-## 🧭 <span style="color:#3F51B5;">Navigation Flow</span>
 
