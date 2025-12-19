@@ -8,7 +8,7 @@ class NoDataScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('No Data'),
+        title: const Text('SCM'),
         backgroundColor: const Color(0xFF1E88E5),
         foregroundColor: Colors.white,
         leading: IconButton(
@@ -23,8 +23,9 @@ class NoDataScreen extends StatelessWidget {
             Image.asset(
               'assets/images/empty_state.png',
               height: 200,
-              errorBuilder: (context, error, stackTrace) => 
-                const Icon(Icons.inbox, size: 100, color: Colors.grey),
+              errorBuilder:
+                  (context, error, stackTrace) =>
+                      const Icon(Icons.inbox, size: 100, color: Colors.grey),
             ),
             const SizedBox(height: 24),
             const Text(
